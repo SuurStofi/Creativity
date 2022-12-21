@@ -54,7 +54,7 @@ local colours = {
 }
 
 function getcolorforrange(r, g, b)
-    local closestint = 100000
+    local closestint = 9000
     local closestcolour = ""
     
     for i, colour in pairs(colours) do
